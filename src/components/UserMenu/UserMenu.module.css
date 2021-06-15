@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.avatar {
+  margin-right: 5px;
+}
+.name {
+  margin-right: 12px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.button {
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  margin: auto;
+  color: rgb(59, 55, 55);
+  font-weight: 500;
+  background-color: rgb(182, 206, 216);
+  transform: transform 350ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(83, 120, 131);
+  color: cornsilk;
+  box-shadow: 5px 8px 15px rgb(55 90 10 / 10%), 0 10px 10px rgb(55 90 10 / 25%);
+  transform: transform 350ms linear;
+}

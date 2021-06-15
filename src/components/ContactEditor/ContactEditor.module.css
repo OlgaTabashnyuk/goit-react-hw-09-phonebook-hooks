@@ -1,0 +1,62 @@
+.form {
+  /* border: 1px solid black; */
+  /* padding: 20px; */
+  margin-bottom: 20px;
+  width: 100%;
+}
+.label {
+  font-size: 22px;
+}
+.input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 600;
+  border-color: darkgray;
+  width: 300px;
+  height: 30px;
+}
+/* .input:hover, */
+.input:focus {
+  border-color: rgb(166, 209, 238);
+  background-color: rgb(214, 241, 243);
+}
+.button {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(182, 206, 216);
+  color: rgb(43, 41, 41);
+  transform: transform 350ms linear;
+}
+.button:hover {
+  background-color: rgb(83, 120, 131);
+  color: cornsilk;
+  box-shadow: 5px 8px 15px rgb(55 90 10 / 10%), 0 10px 10px rgb(55 90 10 / 25%);
+  transform: transform 350ms linear;
+}
+
+@media screen and (min-width: 100px) and (max-width: 479px) {
+  .form {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .form {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    margin-left: 200px;
+  }
+} ;

@@ -1,0 +1,35 @@
+.label {
+  display: inline-block;
+  margin-left: 250px;
+  font-style: italic;
+  font-weight: 600;
+}
+.input {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  border-radius: 5px;
+  outline: none;
+  width: 150px;
+  height: 30px;
+}
+
+.text {
+  margin-left: 200px;
+}
+.input:focus {
+  border-color: rgb(166, 209, 238);
+  background-color: rgb(214, 241, 243);
+}
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+  .label {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  .text {
+    margin-left: 40px;
+  }
+}

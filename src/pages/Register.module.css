@@ -1,0 +1,101 @@
+.container {
+  min-height: calc(100vh);
+  display: flex;
+
+  /* align-items: baseline;
+  justify-content: center; */
+  padding-left: 30px;
+
+  margin: 0 auto;
+
+  /* min-width: calc(100% - 20px * 2); */
+}
+
+.contactsTitle {
+  margin-left: 50px;
+}
+
+.input {
+  border-radius: 5px;
+  height: 35px;
+}
+
+.input:focus {
+  border-color: rgb(166, 209, 238);
+  background-color: rgb(214, 241, 243);
+}
+.title {
+  display: block;
+  font-weight: 500;
+  font-size: 40px;
+  color: #e84a5f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+  border-radius: 6px;
+  color: rgb(43, 41, 41);
+  font-weight: 500;
+  background-color: rgb(182, 206, 216);
+  transition: transform 250ms linear;
+}
+.button:hover {
+  background-color: rgb(83, 120, 131);
+  color: cornsilk;
+  transform: transform 250ms linear;
+  box-shadow: 5px 8px 15px rgb(55 90 10 / 10%), 0 10px 10px rgb(55 90 10 / 25%);
+}
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login {
+    margin-left: 10px;
+  }
+}
+
+.form {
+  width: 300px;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    align-items: center;
+  }
+  .login {
+    margin-left: 40px;
+  }
+  .title {
+    margin-left: 50px;
+  }
+  .contactsTitle {
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    align-items: center;
+  }
+  .login {
+    margin-left: 150px;
+  }
+  .title {
+    margin-left: 80px;
+  }
+  .contactsTitle {
+    margin-left: 200px;
+  }
+}

@@ -1,0 +1,72 @@
+.ContactList {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px; */
+  margin: 0;
+}
+.itemDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 1;
+  padding-bottom: 12px;
+}
+
+.contactsDetails {
+  margin: 0;
+  margin-right: 15px;
+  font-weight: 500;
+}
+.ContactList__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  outline: 1px solid rgb(83, 120, 131);
+  width: 200px;
+  justify-content: space-between;
+}
+.ContactList__btn {
+  width: 150px;
+  padding: 5px;
+  margin-left: 15px;
+  border-radius: 6px;
+  color: rgb(43, 41, 41);
+  font-weight: 500;
+  background-color: rgb(182, 206, 216);
+  transition: transform 250ms linear;
+}
+.ContactList__btn:hover {
+  background-color: rgb(83, 120, 131);
+  color: cornsilk;
+  transform: transform 250ms linear;
+  box-shadow: 5px 8px 15px rgb(55 90 10 / 10%), 0 10px 10px rgb(55 90 10 / 25%);
+}
+
+@media screen and (min-width: 100px) {
+  .ContactList {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .ContactList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 120px;
+    /* background-color: red; */
+  }
+  .ContactList__item {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ContactList {
+    /* margin-left: 70px; */
+  }
+}
