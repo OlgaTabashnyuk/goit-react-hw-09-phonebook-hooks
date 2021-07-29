@@ -28,8 +28,6 @@ export default function ContactEditor() {
     [dispatch, user, contacts],
   );
 
-  // console.log(shortid.generate());
-
   return (
     <div className={s.form}>
       <form onSubmit={handleSubmit}>
